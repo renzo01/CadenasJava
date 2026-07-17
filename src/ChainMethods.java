@@ -2,7 +2,7 @@ public class ChainMethods {
     public static void main(String[] args) {
         var chain1 = "Hello World";
         //get length of chain
-        var length = chain1.length();
+        // var length = chain1.length();
         //replace value from chain
         var newChain = chain1.replace("o", "a");
         System.out.println(newChain);
@@ -12,5 +12,8 @@ public class ChainMethods {
         //to lowercase
         var lowercase = chain1.toLowerCase();
         System.out.println("Chain in lowercase :"+lowercase);
+        //To eliminate spaces from chain
+        var chain2 = "   Hello World   ";
+        System.out.println("Chain without spaces :"+chain2.trim());
     }
 }
